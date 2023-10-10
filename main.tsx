@@ -1,6 +1,23 @@
 /** @jsx h */
 
 import blog, { ga, h, redirects } from 'blog';
+import { updateDns } from './updateDns.ts';
+
+const getEnvVar = (key: string) => {
+  const val = Deno.env.get(key);
+  if (!val) {
+    throw new Error(`Must specify a ${key} env var`);
+  }
+  return val;
+};
+
+if (Deno.env.has('DYNDNS_USERNAME') || Deno.env.has('DYNDNS_PASSWORD')) {
+  await updateDns({
+    username: getEnvVar('DYNDNS_USERNAME'),
+    password: getEnvVar('DYNDNS_PASSWORD'),
+  });
+  console.log('Updated dynamic dns!');
+}
 
 const lines = [
   `What I regret most: Pursuing what was in front of me and not what was inside`,
