@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "dev": "deno run --allow-net --allow-read --allow-env --check --watch main.tsx --dev",
+    "serve": "deno run --allow-net --allow-read --allow-env --check main.tsx",
+    "fmt": "deno fmt --options-single-quote --watch"
+  },
+  "imports": {
+    "blog": "https://deno.land/x/blog@0.7.0/blog.tsx"
+  }
+}
