@@ -19,6 +19,8 @@ if (Deno.env.has('DYNDNS_USERNAME') || Deno.env.has('DYNDNS_PASSWORD')) {
   console.log('Updated dynamic dns!');
 }
 
+// Paprika
+
 const lines = [
   `What I regret most: Pursuing what was in front of me and not what was inside`,
   `What I regret most: Pursuing what was in front of me and not what was on the horizon`,
@@ -38,12 +40,14 @@ const lines = [
 ];
 
 blog({
-  title: 'My Blog',
-  description: 'This is my new blog.',
+  title: 'My scratchpad',
+  description: 'Computers, symmetry, and God',
   // header: <header>About / Blog / Muse / Scaffold</header>,
-  // section: (post: Post) => <section>Your custom section with access to Post props.</section>,
+  // section: (post) => (
+  //   <section>Your custom section with access to Post props.</section>
+  // ),
   // footer: <footer>Your custom footer</footer>,
-  avatar: 'https://deno-avatar.deno.dev/avatar/blog.svg',
+  // avatar: 'https://deno-avatar.deno.dev/avatar/blog.svg',
   avatarClass: 'rounded-full',
   author: 'Joel Walker',
 
@@ -57,7 +61,7 @@ blog({
   dateFormat: (date) =>
     new Intl.DateTimeFormat('en-GB', { dateStyle: 'long' }).format(date),
   middlewares: [
-    ga('UA-XXXXXXXX-X'),
+    ga('G-ZCM1LGB8TL'),
     redirects({
       // '/foo': '/my_post',
     }),
@@ -79,6 +83,8 @@ blog({
   ],
   // unocss: unocss_opts, // check https://github.com/unocss/unocss
   favicon: 'favicon.ico',
+
+  style: `ol, ul, menu { list-style: revert; }`,
 
   port: parseInt(getEnvVar('HTTP_PORT')),
 });
