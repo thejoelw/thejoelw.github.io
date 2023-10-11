@@ -40,7 +40,7 @@ This brings us to our final feature; types. Notice the desugared function above 
 
 This might seem a little weirder than it should be, and you'd be right, but the magic happens now that we can pass any kind of value to our function. A compiler would pass a set representing all possible values that the function could be called with. Each function clause whose type union doesn't return the empty set (represented as `!never`), will be invoked with the argument as the unioned type. Following clauses are matched to the new argument of the difference of the preceding argument and the preceding union (using `!host.difference`), and finally, the result accumulated using `!host.merge`.
 
-`a:string -> handleStr, a:numberGt100 -> handleBigNum, a:number -> handleNumber` becomes something like this:
+`a:string -> handleStr a, a:numberGt100 -> handleBigNum a, a:number -> handleNumber a` becomes something like this:
 ```
 arg -> (
     union = !host.union arg string
@@ -71,4 +71,4 @@ So for a compiler, we're passing sets and merging them, but for a simple interpr
 !host.merge !never x = x
 ```
 
-Of course all of this feels very slow, and indeed probably will be. However, the goal is to allow programs should behave as simple transformations that touch their values (numbers, strings, file descriptors, sets) as lightly as possible, easing the injection of disparate library implementations. This enables fun things like compilation, metering, full differentiation, or fuzzing.
+Of course all of this feels very slow, and indeed probably will be. However, the goal is to empower simple transformations that touch their values (numbers, strings, file descriptors, sets) as lightly as possible, easing the injection of disparate library implementations. This enables fun things like compilation, metering, full differentiation, or fuzzing.
