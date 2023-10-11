@@ -59,9 +59,7 @@ blog({
   middlewares: [
     ga('UA-XXXXXXXX-X'),
     redirects({
-      '/foo': '/my_post',
-      // you can skip leading slashes too
-      'bar': 'my_post2',
+      // '/foo': '/my_post',
     }),
     async (req, ctx) => {
       const { search } = new URL(req.url);
@@ -81,4 +79,6 @@ blog({
   ],
   // unocss: unocss_opts, // check https://github.com/unocss/unocss
   favicon: 'favicon.ico',
+
+  port: parseInt(getEnvVar('HTTP_PORT')),
 });
