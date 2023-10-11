@@ -2,7 +2,7 @@
 title: HTML
 publish_date: 2023-01-30
 abstract: Image deno_blog but with unsantized HTML...
-disable_html_sanitization: true
+allow_html: true
 ---
 
 ## Cool Button Demo

@@ -1,6 +1,7 @@
 ---
 title: I'm starting a blog
 publish_date: 2023-10-10
+public: true
 ---
 
 I want to become more intentional about the choices I make / turning off the

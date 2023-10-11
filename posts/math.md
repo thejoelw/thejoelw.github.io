@@ -3,7 +3,7 @@ title: Math
 author: CUSTOM AUTHOR NAME
 publish_date: 2023-02-17
 abstract: This is the fifth post showcasing math rendering
-render_math: true
+allow_math: true
 ---
 
 # Math rendering
