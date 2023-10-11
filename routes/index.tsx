@@ -1,4 +1,5 @@
 import { Handlers, PageProps } from '$fresh/server.ts';
+import { PostHeader } from '../components/PostHeader.tsx';
 import { getPosts, Post } from '../utils/posts.ts';
 
 export const handler: Handlers<Post[]> = {
@@ -12,29 +13,14 @@ function PostCard(props: { post: Post }) {
   const { post } = props;
   return (
     <div style={{ marginBottom: '2rem' }}>
-      <div
-        style={{
-          display: 'flex',
-          flexDirection: 'row',
-          alignItems: 'center',
-          gap: '1rem',
-        }}
-      >
-        <a href={`/${post.slug}`}>
-          <h3>{post.title}</h3>
-        </a>
-        <hr
-          style={{ flex: '1', border: 'none', borderBottom: '1px solid #ccc' }}
-        >
-        </hr>
-        <time>
-          {new Date(post.publishedAt).toLocaleDateString('en-us', {
-            year: 'numeric',
-            month: 'short',
-            day: 'numeric',
-          })}
-        </time>
-      </div>
+      <PostHeader
+        title={
+          <a href={`/${post.slug}`}>
+            <h3>{post.title}</h3>
+          </a>
+        }
+        date={post.publishedAt}
+      />
       <div style={{ color: '#4b5563' }}>{post.snippet}</div>
     </div>
   );
