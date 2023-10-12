@@ -26,7 +26,7 @@ export default function PostPage(props: PageProps<Post>) {
       <article>
         <PostHeader title={<h1>{post.title}</h1>} date={post.publishedAt} />
         <div
-          class='markdown-body'
+          class={`markdown-body post-${post.slug}`}
           dangerouslySetInnerHTML={{ __html: render(post.content, post.flags) }}
         />
       </article>

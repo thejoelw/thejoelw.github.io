@@ -10,3 +10,9 @@ a {
 a:hover {
   color: #888;
 }
+
+.post-scaffold img {
+  display: block;
+  max-height: 10em;
+  margin: 0 auto;
+}
