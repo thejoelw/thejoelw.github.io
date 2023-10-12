@@ -34,3 +34,5 @@ Scaffold is not a blockchain. It is not designed for fast consensus; in fact the
 Concretely, scaffold will be a TypeScript library, running in the browser and behaving similarly to `fetch()`. Internally, it connects to other peers via WebRTC. It accepts and builds upon received answers optimistically, expecting them to be correct and rectifying the situation quickly if not.
 
 This is a very high-level rough outline of scaffold and some of the key solutions I've stumbled upon over the last year of ideation/development. I believe this concept has a significant potential to transform the web; allowing smaller organizations to scale rapidly and allowing large ones to save massively on bandwidth/hosting costs, resulting in cheaper and faster services for their users.
+
+If you're interested please contact me at thejoeldw+scaffold@gmail.com.
