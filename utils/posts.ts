@@ -11,6 +11,7 @@ export interface Post {
   content: string;
   snippet: string;
   public: boolean;
+  listed: boolean;
   flags: {
     allowIframes: boolean;
     allowMath: boolean;
@@ -51,6 +52,7 @@ export const getPost = async (slug: string): Promise<Post> => {
     content: body,
     snippet: makeSnippet(attrs.snippet, body),
     public: !!attrs.public,
+    listed: !attrs.unlisted,
     flags: {
       allowIframes: !!attrs.allow_iframes,
       allowMath: !!attrs.allow_math,
@@ -75,6 +77,6 @@ export const getPosts = async () => {
     }
   }
   return (await Promise.all(promises))
-    .flatMap((post) => post ? [post] : [])
+    .flatMap((post) => post && post.listed ? [post] : [])
     .sort((a, b) => b.publishedAt.getTime() - a.publishedAt.getTime());
 };

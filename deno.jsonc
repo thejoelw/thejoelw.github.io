@@ -17,7 +17,8 @@
     }
   },
   "exclude": [
-    "**/_fresh/*"
+    "**/_fresh/*",
+    "fresh.gen.ts"
   ],
   "imports": {
     "$fresh/": "https://deno.land/x/fresh@1.5.1/",
