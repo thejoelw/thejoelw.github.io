@@ -1,5 +1,5 @@
 import { AppProps } from '$fresh/server.ts';
-import { title } from '../utils/config.ts';
+import { title } from '../util/config.ts';
 
 export default function App({ Component }: AppProps) {
   return (
