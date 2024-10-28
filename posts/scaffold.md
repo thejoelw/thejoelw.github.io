@@ -75,4 +75,4 @@ them to be correct and rectifying the situation quickly if not.
 
 This is a very high-level rough outline of scaffold and some of the key
 solutions I've stumbled upon over the last year of ideation/development. If
-you're interested please contact me at thejoeldw+scaffold@gmail.com.
+you're interested please contact me at joel@scaffold.io.

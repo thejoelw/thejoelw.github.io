@@ -41,7 +41,7 @@ export default function App({ Component }: AppProps) {
               <a href='/'>{title}</a>
             </h1>
             <span style={{ flex: '1' }}></span>
-            <a href='https://github.com/JWalker1995'>Github</a>
+            <a href='https://github.com/thejoelw'>Github</a>
           </div>
         </header>
         <main
