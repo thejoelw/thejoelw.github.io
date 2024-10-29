@@ -1,6 +1,6 @@
 ---
 title: Blind dancers
-publish_date: 2024-08-02
+publish_date: 2024-10-24
 public: true
 ---
 
