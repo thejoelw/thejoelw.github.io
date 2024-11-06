@@ -10,4 +10,11 @@ However there's another aspect I hadn't considered. In my experience, I don't th
 
 I want my life to be marked by love. Defined by love. And love is entering into the suffering of others, the heartache, voluntarily. I want compassion to be my compass, not correctness. A little sober-minded high now and then is not worth the distance it creates between me and those scarred by the suffering caused by a drug.
 
-I think this is the way I'm going to live my life. I suppose a similar argument can be made for alcohol.
+
+#### Nov 5 addendum:
+
+I read 1 Corinthians 1:10 recently:
+
+> I appeal to you, brothers, by the name of our Lord Jesus Christ, that all of you agree, and that there be no divisions among you, but that you be united in the same mind and the same judgment.
+
+I've always read "divisions" as "conflict", and glossed over verses like these because obviously conflict is bad. However Paul is clearly referring to opinions here; he calls for believers to "agree", "be united in the same mind", and "same judgement". If an opinion is significant enough as to divide people, it should be unified. And attitudes towards drugs clearly meet this criterion.
