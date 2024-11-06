@@ -1,2 +1,2 @@
 export const canonicalUrl = `joelw.xyz`;
-export const title = `Computers, symmetry, and God`;
+export const title = `Symmetry and God`;
