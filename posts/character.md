@@ -13,9 +13,9 @@ Love is hard to define. But one of the foundations for love is a positive attitu
 
 In [true humility](/true_humility) I described how my attitude towards other people has changed over time. What I pursue now is something like "respect", "admiration", or "looking up to". It's an expectation of the best in other people.
 
-This generalizes to God. The way you see God is perhaps the most important thing about you. The way you see God defines how you seek him. How you expect to experience him. Your faith. It's life-changing. There's no prayer more life-changing than asking God to show you himself.
+This generalizes to God. The way you see God is perhaps the most important thing about you. The way you see God defines how you seek him. How you expect to experience him. Your faith. There's no prayer more life-changing than asking God to show you himself.
 
-Seeing God as someone worthy of respect is, I believe, what the Bible refers to as the "fear of God". Not only a stylish fashion brand, it's essential to living a beautiful life. The primary danger of disregarding God's words, sin, is not what it'll do to you, but what it'll do to your relationship with God.
+Seeing God as someone worthy of respect is, I believe, what the Bible refers to as the "fear of God". The fear of God is essential to living a beautiful life. The primary danger of disregarding God's words, sin, is not what it'll do to you, but what it'll do to your relationship with God.
 
 Life is too short to spend time looking down on people. We are called to love; to descend to them and lift them up. There is no "stupid" person, no "idiot". Ideas and thoughts can be stupid, but not people. Someday, Jesus will judge every person, but until that day our job is to love.
 
