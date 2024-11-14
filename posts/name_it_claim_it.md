@@ -35,7 +35,7 @@ John 15:7
 2 Corinthians 1:20
 > For all the promises of God find their Yes in him. That is why it is through him that we utter our Amen to God for his glory.
 
-What are these verses trying to convey? A flowchart for whether God will or won't answer? No, they're trying to convey the character of God. He's a giving God, not a withholding God (Romans 8:32). They're trying to invoke hope, confidence, expectation, and ultimately, faith.
+What are these verses trying to convey? A flowchart for whether God will or won't answer? Indeed there are conditions, but the repeated message is the character of God. He's a giving God, not a withholding God (Romans 8:32). They're trying to invoke hope, confidence, expectation, and ultimately, faith.
 
 The Bible isn't a textbook. It's not an algorithm. I know this is a hot take, but I don't believe the Bible is inerrant. I don't believe it is perfectly logical, perfectly precise, or perfectly accurate. But I do believe it is perfect; meaning any change would result in less souls spending eternity with their savior.
 
