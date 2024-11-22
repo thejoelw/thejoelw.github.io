@@ -55,7 +55,7 @@ Many days I don't hear anything specific. But I always know he's there; I feel h
 
 ## Bonus: Petition (for selfish prayers)
 
-I try to do these rarely. God knows what I want better than I do, and I find that too much petition makes me worry and overthing; I end up focusing too much on myself and my life instead of God.
+I try to do these rarely. God knows what I want better than I do, and I find that too much petition makes me worry and overthink; I end up focusing too much on myself and my life instead of God.
 
 But I know God wants to know my heart, and he wants me to have dreams. So I send my big dreams wrapped in small prayers.
 
