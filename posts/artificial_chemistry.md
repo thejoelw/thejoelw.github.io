@@ -1,6 +1,6 @@
 ---
 title: Artificial chemistry
-publish_date: 2024-11-23
+publish_date: 2024-11-17
 public: true
 ---
 
