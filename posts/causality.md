@@ -1,7 +1,7 @@
 ---
 title: Causality
 publish_date: 2024-10-29
-public: true
+public: false
 ---
 
 The fundamental laws of the universe are [equations](https://en.wikipedia.org/wiki/Conservation_law#Exact_laws). They deal with two things being equal. There is no "causality" involved.
