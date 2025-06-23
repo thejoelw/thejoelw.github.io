@@ -1,7 +1,7 @@
 ---
 title: An argument against recreational drugs
 publish_date: 2024-10-28
-public: true
+public: false
 ---
 
 For a long time I've held a neutral view on light recreational drugs. I tried to base this on my interpretation of the Bible. My interpretation is that most guidance related to drugs refers to being sober-minded, which in my experience, is a pretty clear boundary that can be kept within.
